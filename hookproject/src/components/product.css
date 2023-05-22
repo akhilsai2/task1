@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+.product-item::-webkit-scrollbar{
+    display:none;
+}
+.productShow{
+    display:flex;
+    flex-direction:column;
+    width:85%;
+    flex-grow:1;
+}
+.setrow{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}

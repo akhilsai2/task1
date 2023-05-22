@@ -1,0 +1,70 @@
+ .image{
+    width:600px;
+    border-radius: 10px;
+ }
+ .homebg{
+  background-image:url("https://i.postimg.cc/vBWzG41P/hero-video.gif");
+  
+  background-size:cover;
+  
+ 
+ 
+ }
+ @media screen and (max-width:768px){
+   .homebg{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+   }
+ }
+ .createCard{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border:1px solid #bfbfbf;
+   box-shadow: 0 4px 16px 0 #bfbfbf;
+   width:350px;
+   padding-top:15px;
+   padding-bottom: 15px;
+   border-radius: 10px;
+  
+   
+ }
+ form{
+   display:flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+ }
+ .label{
+   margin-bottom: 5px;
+   color:#363636;
+   font-size: 15px;
+   font-weight: 600;
+   
+ }
+ .input{
+   margin-bottom: 10px;
+   width:250px;
+   height:30px;
+   border-radius:3px;
+   border:1px solid #bfbfbf;
+   padding-left: 10px;
+   color:black;
+   font-weight: 500;
+   cursor: pointer;
+   outline: none;
+ }
+ .btn{
+   background-color: rgb(10, 129, 241);
+   border:0px solid white;
+   color:white;
+   font-size: 12px;
+   height:35px;
+   width:90px;
+   border-radius: 5px;
+   align-self: flex-end;
+ 
+ }
+ 

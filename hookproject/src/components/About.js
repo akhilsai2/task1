@@ -1,0 +1,17 @@
+import React from 'react'
+import Card from './Card'
+// 
+const ListNum=Array.from(Array(15).keys())
+function About() {
+  
+  return (
+    <div style={{display:"flex",flexDirection:"column",justifyContent:"flex-start",alignItems:"center",backgroundColor:"lightgray",height:"90vh",width:"85%",flexGrow:"1",overflowY:"scroll"}}>
+        <h1 style={{fontFamily:"sans-serif",color:"darkBlue",fontSize:"40px"}}>About User</h1>
+        <ul style={{listStyleType:"none",display:"flex",justifyContent:"center",alignItems:"flex-start" ,flexWrap:"wrap",width:"100%"}}>
+          {ListNum.map(each=><Card item={each} key={each.id}/>)}
+        </ul>
+    </div>  
+  )
+}
+
+export default About

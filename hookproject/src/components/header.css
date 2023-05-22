@@ -1,0 +1,18 @@
+.hamburger{
+    font-size:40px;
+    padding-left:20px;
+    color:white;
+}   
+
+.arrow{
+    color:black;
+}
+
+.butn:hover{
+    transform: rotate(90deg);
+   
+}
+
+.drop{
+    height:"20px"
+}

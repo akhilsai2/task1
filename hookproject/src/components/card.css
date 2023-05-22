@@ -1,0 +1,13 @@
+.item{
+   background-color: white;  
+   width:150px;
+   height:150px;
+   box-shadow: 0px 4px 16px 0px #bfbfbf;
+   margin-right:30px;
+   margin-bottom: 20px;
+   border-radius: 10px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   box-sizing: border-box;
+}
